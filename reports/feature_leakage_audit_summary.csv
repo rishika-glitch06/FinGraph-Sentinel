@@ -1,0 +1,12 @@
+metric,value
+Total original features,165
+Local features,94
+Aggregated features,71
+Features with absolute time correlation > 0.5,17
+Features with absolute time correlation > 0.8,6
+Total graph edges,234355
+Valid graph edges,234355
+Same-time graph edges,234355
+Cross-time graph edges,0
+Source-to-future edges,0
+Source-to-past edges,0

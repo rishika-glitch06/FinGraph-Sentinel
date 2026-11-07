@@ -1,0 +1,3 @@
+feature_group,feature_count,average_absolute_mean_change,average_absolute_time_correlation
+Local,94,0.06725831553264641,0.07720168367666062
+Aggregated,71,0.32337950135477844,0.19998201366558604
