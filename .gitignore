@@ -9,3 +9,5 @@ data/processed/*
 models/
 .DS_Store
 .vscode/
+
+app/dashboard_backup.py
