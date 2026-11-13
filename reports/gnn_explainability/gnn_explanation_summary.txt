@@ -1,0 +1,41 @@
+FIN-GRAPH SENTINEL: GNN EXPLAINABILITY
+==================================================
+
+Transaction ID: 72029285
+Test timestep: 42
+Actual class: illicit
+Predicted class: illicit
+Illicit probability: 0.999607
+
+Neighborhood nodes: 4
+Neighborhood edges: 3
+
+TOP 15 FEATURES
+------------------------------
+    feature  importance
+feature_107    0.470664
+feature_106    0.462818
+feature_109    0.457102
+  feature_2    0.450667
+ feature_53    0.428931
+feature_113    0.428829
+ feature_90    0.426894
+ feature_68    0.426394
+ feature_46    0.424609
+ feature_93    0.417604
+ feature_55    0.417358
+ feature_84    0.416515
+ feature_80    0.415574
+ feature_40    0.414761
+ feature_78    0.412355
+
+TOP 15 EDGES
+------------------------------
+ source_transaction  target_transaction  importance
+           71758069            72029285    0.601644
+           71987192            72029285    0.300712
+           71748102            71987192    0.289128
+
+LIMITATIONS
+------------------------------
+The explanation uses a two-hop local subgraph. Extracting a subgraph can change GCN degree normalization compared with the full graph. Therefore, the local explanation is an approximation of the full-graph prediction. Feature and edge importance do not establish causality.
